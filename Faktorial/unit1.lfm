@@ -1,0 +1,77 @@
+object Form1: TForm1
+  Left = 405
+  Height = 458
+  Top = 206
+  Width = 520
+  Caption = 'Form1'
+  ClientHeight = 458
+  ClientWidth = 520
+  LCLVersion = '2.2.6.0'
+  object Label1: TLabel
+    Left = 80
+    Height = 15
+    Top = 64
+    Width = 9
+    Caption = 'N'
+    ParentColor = False
+  end
+  object Hitung: TButton
+    Left = 352
+    Height = 25
+    Top = 56
+    Width = 75
+    Caption = 'Hitung'
+    TabOrder = 0
+  end
+  object GroupBox1: TGroupBox
+    Left = 72
+    Height = 144
+    Top = 136
+    Width = 377
+    Caption = 'Hasil'
+    ClientHeight = 124
+    ClientWidth = 373
+    TabOrder = 1
+    OnClick = GroupBox1Click
+    object Label2: TLabel
+      Left = 55
+      Height = 15
+      Top = 28
+      Width = 45
+      Caption = 'Faktorial'
+      ParentColor = False
+    end
+    object Label3: TLabel
+      Left = 55
+      Height = 15
+      Top = 79
+      Width = 38
+      Caption = 'Jumlah'
+      ParentColor = False
+    end
+    object edtFaktorial: TEdit
+      Left = 128
+      Height = 23
+      Top = 20
+      Width = 176
+      TabOrder = 0
+      Text = 'edtFaktorial'
+    end
+    object edtJumlah: TEdit
+      Left = 128
+      Height = 23
+      Top = 71
+      Width = 176
+      TabOrder = 1
+      Text = 'edtJumlah'
+    end
+  end
+  object edtDeret: TEdit
+    Left = 138
+    Height = 23
+    Top = 58
+    Width = 174
+    TabOrder = 2
+    Text = 'edtDeret'
+  end
+end
